@@ -1,0 +1,4 @@
+/* Add a blue background for search highlights, works both in editing and preview pane. Because some themes have unreadable search highlights */
+.obsidian-search-match-highlight, .search-highlight > .is-active {
+	background-color:blue;
+}
