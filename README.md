@@ -15,6 +15,6 @@ Adds outline-style callouts, used by adding callouts
 `> [!outline-cyan]`  
 `> [!outline-pink]`  
 
-Works on Light and Dark theme, using theme-specified colors. Title currently only shows in "Edit" mode. Refinements coming to get rid of the lower shadow and fix "Reading" mode.
+Works on Light and Dark theme, using theme-specified colors. Title currently only shows in "Edit" mode. Refinements coming to fix "Reading" mode.
 ![Dark Theme](/Screenshots/calloutOutlineDark.png?raw=true "Dark Mode")
 ![Light Theme](/Screenshots/calloutOutlineLight.png?raw=true "Light Mode")
