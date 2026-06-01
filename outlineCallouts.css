@@ -1,0 +1,136 @@
+/*
+Creates outline-style callout formatting using theme colors Red, Orange, Yellow, Green, Blue, Purple, Cyan, Pink
+*/
+
+/*--- RED OUTLINE CALLOUT ---*/
+.callout[data-callout="outline-red"] {
+	--callout-icon: lucide-sparkles;
+	--callout-color: var(--color-red-rgb);
+	--callout-title-color: var(--callout-color);
+	border: 2px solid rgb(var(--callout-color));
+	background-color: transparent;
+}
+.callout[data-callout="outline-red"] > .callout-title {
+	box-shadow: none;
+	position: absolute;
+	top: -20px;
+	background-color: var(--background-primary);
+	margin: 12px 10px 12px 10px;
+	padding: 0px 5px 0px 5px;
+	overflow: visible; 
+}
+
+/*--- ORANGE OUTLINE CALLOUT ---*/
+.callout[data-callout="outline-orange"] {
+	--callout-icon: lucide-sparkles;
+	--callout-color: var(--color-orange-rgb);
+	--callout-title-color: var(--callout-color);
+	border: 2px solid rgb(var(--callout-color));
+	background-color: transparent;
+
+}
+.callout[data-callout="outline-orange"] > .callout-title {
+	box-shadow: none;
+	position: absolute;
+	top: -20px;
+	background-color: var(--background-primary);
+	margin: 12px 10px 12px 10px;
+	padding: 0px 5px 0px 5px;
+	overflow: visible; 
+}
+
+/*--- YELLOW OUTLINE CALLOUT ---*/
+.callout[data-callout="outline-yellow"] {
+	--callout-icon: lucide-sparkles;
+	--callout-color: var(--color-yellow-rgb);
+	--callout-title-color: var(--callout-color);
+	border: 2px solid rgb(var(--callout-color));
+	background-color: transparent;
+
+}
+.callout[data-callout="outline-yellow"] > .callout-title {
+	box-shadow: none;
+	position: absolute;
+	top: -20px;
+	background-color: var(--background-primary);
+	margin: 12px 10px 12px 10px;
+	padding: 0px 5px 0px 5px;
+	overflow: visible; 
+}
+
+/*--- GREEN OUTLINE CALLOUT ---*/
+.callout[data-callout="outline-green"] {
+	--callout-icon: lucide-sparkles;
+	--callout-color: var(--color-green-rgb);
+	--callout-title-color: var(--callout-color);
+	border: 2px solid rgb(var(--callout-color));
+	background-color: transparent;
+
+}
+.callout[data-callout="outline-green"] > .callout-title {
+	box-shadow: none;
+	position: absolute;
+	top: -20px;
+	background-color: var(--background-primary);
+	margin: 12px 10px 12px 10px;
+	padding: 0px 5px 0px 5px;
+	overflow: visible; 
+}
+
+/*--- BLUE OUTLINE CALLOUT ---*/
+.callout[data-callout="outline-blue"] {
+	--callout-icon: lucide-sparkles;
+	--callout-color: var(--color-blue-rgb);
+	--callout-title-color: var(--callout-color);
+	border: 2px solid rgb(var(--callout-color));
+	background-color: transparent;
+
+}
+.callout[data-callout="outline-blue"] > .callout-title {
+	box-shadow: none;
+	position: absolute;
+	top: -20px;
+	background-color: var(--background-primary);
+	margin: 12px 10px 12px 10px;
+	padding: 0px 5px 0px 5px;
+	overflow: visible; 
+	
+}
+
+/*--- PURPLE OUTLINE CALLOUT ---*/
+.callout[data-callout="outline-purple"] {
+	--callout-icon: lucide-sparkles;
+	--callout-color: var(--color-purple-rgb);
+	--callout-title-color: var(--callout-color);
+	border: 2px solid rgb(var(--callout-color));
+	background-color: transparent;
+
+}
+.callout[data-callout="outline-purple"] > .callout-title {
+	box-shadow: none;
+	position: absolute;
+	top: -20px;
+	background-color: var(--background-primary);
+	margin: 12px 10px 12px 10px;
+	padding: 0px 5px 0px 5px;
+	overflow: visible; 
+}
+
+/*--- PINK OUTLINE CALLOUT ---*/
+.callout[data-callout="outline-pink"] {
+	--callout-icon: lucide-sparkles;
+	--callout-color: var(--color-pink-rgb);
+	--callout-title-color: var(--callout-color);
+	border: 2px solid rgb(var(--callout-color));
+	background-color: transparent;
+
+}
+.callout[data-callout="outline-pink"] > .callout-title {
+	box-shadow: none;
+	position: absolute;
+	top: -20px;
+	background-color: var(--background-primary);
+	margin: 12px 10px 12px 10px;
+	padding: 0px 5px 0px 5px;
+	overflow: visible; 
+}
