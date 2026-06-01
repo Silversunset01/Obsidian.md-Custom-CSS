@@ -19,6 +19,9 @@ Creates outline-style callout formatting using theme colors Red, Orange, Yellow,
 	padding: 0px 5px 0px 5px;
 	overflow: visible; 
 }
+.callout[data-callout="outline-red"] > .callout-content {
+	box-shadow: none;
+}
 
 /*--- ORANGE OUTLINE CALLOUT ---*/
 .callout[data-callout="outline-orange"] {
@@ -37,6 +40,9 @@ Creates outline-style callout formatting using theme colors Red, Orange, Yellow,
 	margin: 12px 10px 12px 10px;
 	padding: 0px 5px 0px 5px;
 	overflow: visible; 
+}
+.callout[data-callout="outline-orange"] > .callout-content {
+	box-shadow: none;
 }
 
 /*--- YELLOW OUTLINE CALLOUT ---*/
@@ -57,6 +63,9 @@ Creates outline-style callout formatting using theme colors Red, Orange, Yellow,
 	padding: 0px 5px 0px 5px;
 	overflow: visible; 
 }
+.callout[data-callout="outline-yellow"] > .callout-content {
+	box-shadow: none;
+}
 
 /*--- GREEN OUTLINE CALLOUT ---*/
 .callout[data-callout="outline-green"] {
@@ -75,6 +84,9 @@ Creates outline-style callout formatting using theme colors Red, Orange, Yellow,
 	margin: 12px 10px 12px 10px;
 	padding: 0px 5px 0px 5px;
 	overflow: visible; 
+}
+.callout[data-callout="outline-green"] > .callout-content {
+	box-shadow: none;
 }
 
 /*--- BLUE OUTLINE CALLOUT ---*/
@@ -96,6 +108,9 @@ Creates outline-style callout formatting using theme colors Red, Orange, Yellow,
 	overflow: visible; 
 	
 }
+.callout[data-callout="outline-blue"] > .callout-content {
+	box-shadow: none;
+}
 
 /*--- PURPLE OUTLINE CALLOUT ---*/
 .callout[data-callout="outline-purple"] {
@@ -115,6 +130,31 @@ Creates outline-style callout formatting using theme colors Red, Orange, Yellow,
 	padding: 0px 5px 0px 5px;
 	overflow: visible; 
 }
+.callout[data-callout="outline-purple"] > .callout-content {
+	box-shadow: none;
+}
+
+/*--- CYAN OUTLINE CALLOUT ---*/
+.callout[data-callout="outline-cyan"] {
+	--callout-icon: lucide-sparkles;
+	--callout-color: var(--color-cyan-rgb);
+	--callout-title-color: var(--callout-color);
+	border: 2px solid rgb(var(--callout-color));
+	background-color: transparent;
+
+}
+.callout[data-callout="outline-cyan"] > .callout-title {
+	box-shadow: none;
+	position: absolute;
+	top: -20px;
+	background-color: var(--background-primary);
+	margin: 12px 10px 12px 10px;
+	padding: 0px 5px 0px 5px;
+	overflow: visible; 
+}
+.callout[data-callout="outline-cyan"] > .callout-content {
+	box-shadow: none;
+}
 
 /*--- PINK OUTLINE CALLOUT ---*/
 .callout[data-callout="outline-pink"] {
@@ -133,4 +173,7 @@ Creates outline-style callout formatting using theme colors Red, Orange, Yellow,
 	margin: 12px 10px 12px 10px;
 	padding: 0px 5px 0px 5px;
 	overflow: visible; 
+}
+.callout[data-callout="outline-pink"] > .callout-content {
+	box-shadow: none;
 }
