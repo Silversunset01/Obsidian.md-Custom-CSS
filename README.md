@@ -14,7 +14,11 @@ Adds outline-style callouts, used by adding callouts
 `> [!outline-purple]`  
 `> [!outline-cyan]`  
 `> [!outline-pink]`  
+`> [!outline-black]`  
+`> [!outline-white]`  
 
-Works on Light and Dark theme, using theme-specified colors. Title currently only shows in "Edit" mode. Refinements coming to fix "Reading" mode.
+Works on Light and Dark theme, using theme-specified colors.  
+Built using theme ["PRIMARY" by Cecilia Mae](https://github.com/primary-theme/obsidian), other themes mess with the alignment of the callout title due to how the theme styles callouts, I'll fix it later if I change themes.   
+*Note: Black and White are backwards on Light mode, outline-white = black, and outeline-black = white*
 ![Dark Theme](/Screenshots/calloutOutlineDark.png?raw=true "Dark Mode")
 ![Light Theme](/Screenshots/calloutOutlineLight.png?raw=true "Light Mode")
