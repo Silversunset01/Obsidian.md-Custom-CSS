@@ -4,6 +4,15 @@ Custom CSS for Obsidian.md
 # Search Highlight
 Adds a blue background to text-search results to accomodate for visibility in some themes
 
+# Callouts - Underline style
+Adds an underline-style callout, used by adding:  
+`> [!underline]`
+Works on Light and Dark theme, using theme-specified colors.    
+Built using theme ["PRIMARY" by Cecilia Mae](https://github.com/primary-theme/obsidian)  
+![Dark Theme](/Screenshots/callout-underline-dark.png?raw=true "Dark Mode"]  
+![Light Theme](/Screenshots/callout-underline-light.png?raw=true "Light Mode"]  
+
+
 # Callouts - outline style
 Adds outline-style callouts, used by adding callouts  
 `> [!outline-red]`  
