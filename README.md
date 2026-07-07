@@ -6,7 +6,7 @@ Adds a blue background to text-search results to accomodate for visibility in so
 
 # Callouts - Underline style
 Adds an underline-style callout, used by adding:  
-`> [!underline]`
+`> [!underline]`  
 Works on Light and Dark theme, using theme-specified colors.    
 Built using theme ["PRIMARY" by Cecilia Mae](https://github.com/primary-theme/obsidian)  
 ![Dark Theme](/Screenshots/callout-underline-dark.png?raw=true "Dark Mode")
