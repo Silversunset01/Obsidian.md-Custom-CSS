@@ -1,15 +1,18 @@
 /*--- UNDERLINE ---*/
 .callout[data-callout="underline"] {
-	--callout-icon: none;
 	background-color: transparent;
 	border: 0px;
 	box-shadow: none;
+}
+.callout[data-callout="underline"] .callout-icon {
+	display: none;
 }
 .callout[data-callout="underline"] > .callout-title {
 	border-bottom: 1px solid var(--color-base-100);
 	background-color: var(--background-primary);
 	box-shadow: none;
 	padding-left: 0px;
+	padding-bottom: 3px;
 	width: 100%;
 }
 .callout[data-callout="underline"] > .callout-content {
