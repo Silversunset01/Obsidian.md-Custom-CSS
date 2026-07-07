@@ -9,8 +9,8 @@ Adds an underline-style callout, used by adding:
 `> [!underline]`
 Works on Light and Dark theme, using theme-specified colors.    
 Built using theme ["PRIMARY" by Cecilia Mae](https://github.com/primary-theme/obsidian)  
-![Dark Theme](/Screenshots/callout-underline-dark.png?raw=true "Dark Mode"]  
-![Light Theme](/Screenshots/callout-underline-light.png?raw=true "Light Mode"]  
+![Dark Theme](/Screenshots/callout-underline-dark.png?raw=true "Dark Mode")
+![Light Theme](/Screenshots/callout-underline-light.png?raw=true "Light Mode")
 
 
 # Callouts - outline style
